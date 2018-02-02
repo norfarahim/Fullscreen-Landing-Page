@@ -1,0 +1,83 @@
+
+
+*{
+	margin: 0;
+	padding:0; 
+}
+
+body{
+	margin: 0;
+	font-family: Sans-Serif;
+	font-size: 17px;
+	color: #fff;
+	line-height: 1.6;
+}
+
+#showcase{
+	background-image: url('../img/aurora.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+}
+#showcase h1{
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#showcase .button{
+	font-size: 18px;
+	text-decoration: none;
+	color: #00CED1;
+	border: #00CED1 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#showcase .button:hover{
+	background: #66CDAA;
+	color: #fff;
+}
+
+#section-a{
+	padding: 20px;
+	background:	#2E8B57;
+	text-align: center;
+}
+
+#section-b{
+	padding: 20px;
+	color: 	#2E8B57;
+	text-align: center;
+}
+
+#section-c{
+	display: flex;
+}
+
+#section-c div{
+	padding: 20px;
+}
+
+#section-c .col-1, #section-c .col-3{
+	background: #2E8B57;
+	text-align: center;
+}
+
+#section-c .col-2{
+	color:	#2E8B57;
+	text-align: center;
+	border: 1px solid;
+}
